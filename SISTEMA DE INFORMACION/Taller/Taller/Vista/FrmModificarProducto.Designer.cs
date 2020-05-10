@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,6 +44,8 @@
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.txtModelo = new System.Windows.Forms.TextBox();
             this.cBoxTipo = new System.Windows.Forms.ComboBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -131,6 +134,7 @@
             this.txtCompra.Name = "txtCompra";
             this.txtCompra.Size = new System.Drawing.Size(169, 20);
             this.txtCompra.TabIndex = 30;
+            this.txtCompra.Validating += new System.ComponentModel.CancelEventHandler(this.txtCompra_Validating);
             // 
             // txtVenta
             // 
@@ -138,6 +142,7 @@
             this.txtVenta.Name = "txtVenta";
             this.txtVenta.Size = new System.Drawing.Size(169, 20);
             this.txtVenta.TabIndex = 31;
+            this.txtVenta.Validating += new System.ComponentModel.CancelEventHandler(this.txtVenta_Validating);
             // 
             // txtStock
             // 
@@ -145,6 +150,7 @@
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(169, 20);
             this.txtStock.TabIndex = 33;
+            this.txtStock.Validating += new System.ComponentModel.CancelEventHandler(this.txtStock_Validating);
             // 
             // txtMarca
             // 
@@ -171,6 +177,10 @@
             this.cBoxTipo.Size = new System.Drawing.Size(165, 21);
             this.cBoxTipo.TabIndex = 37;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // FrmModificarProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,6 +203,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmModificarProducto";
             this.Text = "FrmModificarProducto";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +225,6 @@
         private System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.TextBox txtModelo;
         private System.Windows.Forms.ComboBox cBoxTipo;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

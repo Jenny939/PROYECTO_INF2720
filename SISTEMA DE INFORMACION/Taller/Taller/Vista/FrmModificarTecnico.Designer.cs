@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtCI = new System.Windows.Forms.TextBox();
@@ -47,7 +48,9 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.cBoxEspecialidad = new System.Windows.Forms.ComboBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtDireccion
@@ -63,6 +66,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(169, 20);
             this.txtTelefono.TabIndex = 33;
+            this.txtTelefono.Validating += new System.ComponentModel.CancelEventHandler(this.txtTelefono_Validating);
             // 
             // txtCI
             // 
@@ -70,6 +74,7 @@
             this.txtCI.Name = "txtCI";
             this.txtCI.Size = new System.Drawing.Size(169, 20);
             this.txtCI.TabIndex = 32;
+            this.txtCI.Validating += new System.ComponentModel.CancelEventHandler(this.txtCI_Validating);
             // 
             // txtMaterno
             // 
@@ -218,6 +223,10 @@
             this.cBoxEspecialidad.Size = new System.Drawing.Size(169, 21);
             this.cBoxEspecialidad.TabIndex = 44;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // FrmModificarTecnico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,6 +253,7 @@
             this.Text = "FrmModificarTecnico";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,5 +280,6 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cBoxEspecialidad;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

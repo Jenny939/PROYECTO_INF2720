@@ -62,9 +62,7 @@ namespace Taller.Controlador
             cliente oCliente = new cliente();
             using (DBTallerEntities db = new DBTallerEntities())
             {
-
                 oCliente = db.cliente.SingleOrDefault(cli => cli.ci == ci);
-
             }
             return oCliente;
         }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,11 +47,13 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rBtnSi = new System.Windows.Forms.RadioButton();
             this.rBtnNO = new System.Windows.Forms.RadioButton();
+            this.rBtnSi = new System.Windows.Forms.RadioButton();
             this.cBoxTipo = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -61,7 +64,6 @@
             this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "NOMBRE:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -153,6 +155,8 @@
             this.txtCI.Name = "txtCI";
             this.txtCI.Size = new System.Drawing.Size(192, 20);
             this.txtCI.TabIndex = 13;
+            this.txtCI.WordWrap = false;
+            this.txtCI.Validating += new System.ComponentModel.CancelEventHandler(this.txtCI_Validating);
             // 
             // txtTelefono
             // 
@@ -160,6 +164,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(192, 20);
             this.txtTelefono.TabIndex = 14;
+            this.txtTelefono.Validating += new System.ComponentModel.CancelEventHandler(this.txtTelefono_Validating);
             // 
             // txtDireccion
             // 
@@ -181,6 +186,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(192, 20);
             this.txtPassword.TabIndex = 18;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnGuardar
             // 
@@ -203,6 +209,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ACTIVO:";
             // 
+            // rBtnNO
+            // 
+            this.rBtnNO.AutoSize = true;
+            this.rBtnNO.Location = new System.Drawing.Point(164, 5);
+            this.rBtnNO.Name = "rBtnNO";
+            this.rBtnNO.Size = new System.Drawing.Size(41, 17);
+            this.rBtnNO.TabIndex = 1;
+            this.rBtnNO.Text = "NO";
+            this.rBtnNO.UseVisualStyleBackColor = true;
+            // 
             // rBtnSi
             // 
             this.rBtnSi.AutoSize = true;
@@ -214,16 +230,6 @@
             this.rBtnSi.TabStop = true;
             this.rBtnSi.Text = "SI";
             this.rBtnSi.UseVisualStyleBackColor = true;
-            // 
-            // rBtnNO
-            // 
-            this.rBtnNO.AutoSize = true;
-            this.rBtnNO.Location = new System.Drawing.Point(164, 5);
-            this.rBtnNO.Name = "rBtnNO";
-            this.rBtnNO.Size = new System.Drawing.Size(41, 17);
-            this.rBtnNO.TabIndex = 1;
-            this.rBtnNO.Text = "NO";
-            this.rBtnNO.UseVisualStyleBackColor = true;
             // 
             // cBoxTipo
             // 
@@ -244,6 +250,10 @@
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 25;
             this.label7.Text = "TIPO:";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FrmModificarUsuario
             // 
@@ -274,6 +284,7 @@
             this.Text = "FrmModificarUsuario";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,5 +314,6 @@
         private System.Windows.Forms.RadioButton rBtnSi;
         private System.Windows.Forms.ComboBox cBoxTipo;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

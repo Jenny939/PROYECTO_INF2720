@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -35,6 +36,8 @@
             this.txtTipo = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -84,6 +87,7 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(154, 20);
             this.txtPrecio.TabIndex = 5;
+            this.txtPrecio.Validating += new System.ComponentModel.CancelEventHandler(this.txtPrecio_Validating);
             // 
             // btnGuardar
             // 
@@ -94,6 +98,10 @@
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FrmModificarServicio
             // 
@@ -109,6 +117,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmModificarServicio";
             this.Text = "NOMBRE:";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,5 +132,6 @@
         private System.Windows.Forms.TextBox txtTipo;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

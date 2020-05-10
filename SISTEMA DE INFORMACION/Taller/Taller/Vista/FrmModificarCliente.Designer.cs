@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -41,6 +42,8 @@
             this.txtCI = new System.Windows.Forms.TextBox();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
@@ -134,6 +137,7 @@
             this.txtCI.Name = "txtCI";
             this.txtCI.Size = new System.Drawing.Size(169, 20);
             this.txtCI.TabIndex = 20;
+            this.txtCI.Validating += new System.ComponentModel.CancelEventHandler(this.txtCI_Validating);
             // 
             // txtTelefono
             // 
@@ -141,6 +145,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(169, 20);
             this.txtTelefono.TabIndex = 21;
+            this.txtTelefono.Validating += new System.ComponentModel.CancelEventHandler(this.txtTelefono_Validating);
             // 
             // txtDireccion
             // 
@@ -148,6 +153,10 @@
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(169, 20);
             this.txtDireccion.TabIndex = 22;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FrmModificarCliente
             // 
@@ -169,6 +178,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmModificarCliente";
             this.Text = "FrmModificarCliente";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,5 +199,6 @@
         private System.Windows.Forms.TextBox txtCI;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

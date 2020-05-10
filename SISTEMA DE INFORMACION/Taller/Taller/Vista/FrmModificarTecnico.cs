@@ -49,48 +49,151 @@ namespace Taller.Vista
         }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if (id == null)
+            BorrarMensajeError();
+            if (ValidarCampos())
             {
-                oTecnico = new tecnico();
+                if (id == null)
+                {
 
-                oTecnico.nombre = txtNombre.Text;
-                oTecnico.ap_paterno = txtPaterno.Text;
-                oTecnico.ap_materno = txtMaterno.Text;
-                oTecnico.ci = txtCI.Text;
-                oTecnico.telefono = txtTelefono.Text;
-                oTecnico.direccion = txtDireccion.Text;
+                    try
+                    {
+                        oTecnico = new tecnico();
+
+                        oTecnico.nombre = txtNombre.Text;
+                        oTecnico.ap_paterno = txtPaterno.Text;
+                        oTecnico.ap_materno = txtMaterno.Text;
+                        oTecnico.ci = txtCI.Text;
+                        oTecnico.telefono = txtTelefono.Text;
+                        oTecnico.direccion = txtDireccion.Text;
 
 
-                oTecnico.especialidad = Convert.ToString(cBoxEspecialidad.SelectedItem);
+                        oTecnico.especialidad = Convert.ToString(cBoxEspecialidad.SelectedItem);
 
-                if (rBtnSi.Checked == true)
-                    oTecnico.activo = 1;
-                else
-                    oTecnico.activo = 0;
+                        if (rBtnSi.Checked == true)
+                            oTecnico.activo = 1;
+                        else
+                            oTecnico.activo = 0;
 
-                controladorTecnico.nuevo(oTecnico);
+                        controladorTecnico.nuevo(oTecnico);
+                        MessageBox.Show(this, "Tecnico Agregado Exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.Close();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else { 
+                    try
+                    {
+                        oTecnico.nombre = txtNombre.Text;
+                        oTecnico.ap_paterno = txtPaterno.Text;
+                        oTecnico.ap_materno = txtMaterno.Text;
+                        oTecnico.ci = txtCI.Text;
+                        oTecnico.telefono = txtTelefono.Text;
+                        oTecnico.direccion = txtDireccion.Text;
+
+                        oTecnico.especialidad = Convert.ToString(cBoxEspecialidad.SelectedItem);
+
+
+
+                        if (rBtnSi.Checked == true)
+                            oTecnico.activo = 1;
+                        else
+                            oTecnico.activo = 0;
+
+                        controladorTecnico.editar(oTecnico); 
+                        MessageBox.Show(this, "Tecnico Modificado Exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.Close();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+               // this.Close();
+            }else
+            {
+                MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private bool ValidarCampos()
+        {
+            bool ok = true;
+            if (txtNombre.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtNombre, "Ingrese el nombre Completo");
+            }
+            if (txtPaterno.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtPaterno, "Ingrese el Apellido Paterno");
+            }
+            if (txtMaterno.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtMaterno, "Ingrese el Apelllido Materno");
+            }
+            if (txtCI.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtCI, "Ingrese un CI");
+            }
+            if (txtTelefono.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtTelefono, "Ingrese un Numero de Telefono");
+            }
+            if (txtDireccion.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtDireccion, "Ingrese una Direccion");
+            }
+            if (cBoxEspecialidad.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(cBoxEspecialidad, "Ingrese un Tipo de Usurio");
+            }
+        
+            return ok;
+        }
+        private void BorrarMensajeError()
+        {
+            errorProvider1.SetError(txtNombre, "");
+            errorProvider1.SetError(txtPaterno, "");
+            errorProvider1.SetError(txtMaterno, "");
+            errorProvider1.SetError(txtCI, "");
+            errorProvider1.SetError(txtTelefono, "");
+            errorProvider1.SetError(txtDireccion, "");
+            errorProvider1.SetError(cBoxEspecialidad, "");
+        }
+
+        private void txtCI_Validating(object sender, CancelEventArgs e)
+        {
+            int num;
+            if (!int.TryParse(txtCI.Text, out num))
+            {
+                errorProvider1.SetError(txtCI, "Debe ser un valor Numerico");
             }
             else
             {
-                oTecnico.nombre = txtNombre.Text;
-                oTecnico.ap_paterno = txtPaterno.Text;
-                oTecnico.ap_materno = txtMaterno.Text;
-                oTecnico.ci = txtCI.Text;
-                oTecnico.telefono = txtTelefono.Text;
-                oTecnico.direccion = txtDireccion.Text;
-
-                oTecnico.especialidad = Convert.ToString(cBoxEspecialidad.SelectedItem);
-
-              
-
-                if (rBtnSi.Checked == true)
-                    oTecnico.activo = 1;
-                else
-                    oTecnico.activo = 0;
-
-                controladorTecnico.editar(oTecnico);
+                errorProvider1.SetError(txtCI, "");
             }
-            this.Close();
+        }
+
+        private void txtTelefono_Validating(object sender, CancelEventArgs e)
+        {
+            int num;
+            if (!int.TryParse(txtTelefono.Text, out num))
+            {
+                errorProvider1.SetError(txtTelefono, "Debe ser un valor Numerico");
+            }
+            else
+            {
+                errorProvider1.SetError(txtTelefono, "");
+            }
         }
     }
 }

@@ -59,26 +59,74 @@ namespace Taller.Vista
 
             //    this.Close();
             //}
-            
-            if (id == null)
+
+            BorrarMensajeError();
+            if (ValidarCampos())
             {
-                oRampa = new rampa();
-                oRampa.nombre = txtNombre.Text;
-                oRampa.tipo = txtTipo.Text;
-                controladorRampa.nuevo(oRampa);
-            }
-            else
+
+
+                if (id == null)
+                {
+                    try
+                    {
+                        oRampa = new rampa();
+                        oRampa.nombre = txtNombre.Text;
+                        oRampa.tipo = txtTipo.Text;
+                        controladorRampa.nuevo(oRampa);
+                        MessageBox.Show(this, "Rampa Agregada Exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.Close();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show(this, "Error en el llenado del formulario", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    try
+                    {
+                        oRampa.nombre = txtNombre.Text;
+                        oRampa.tipo = txtTipo.Text;
+                        controladorRampa.editar(oRampa);
+                        MessageBox.Show(this, "Rampa Modificada Exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.Close();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show(this, "Error en el llenado del formulario", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+               // this.Close();
+            }else
             {
-                oRampa.nombre = txtNombre.Text;
-                oRampa.tipo = txtTipo.Text;
-                controladorRampa.editar(oRampa);
+                MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            this.Close();
         }
 
         private void FrmModificarRampa_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private bool ValidarCampos()
+        {
+            bool ok = true;         
+            if (txtNombre.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtNombre, "Ingrese el nombre de la Rampa");
+            }
+            if (txtTipo.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtTipo, "Ingrese el Tipo de Rampa");
+            }
+            return ok;
+        }
+        private void BorrarMensajeError()
+        {
+            errorProvider1.SetError(txtNombre, "");
+            errorProvider1.SetError(txtTipo, "");
         }
     }
 }

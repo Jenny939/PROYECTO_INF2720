@@ -38,27 +38,91 @@ namespace Taller.Vista
         }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if (id == null)
+            BorrarMensajeError();
+            if (ValidarCampos())
             {
-                oServicio = new servicio();
+                if (id == null)
+                {
+                    try
+                    {
+                        oServicio = new servicio();
 
-                oServicio.nombre = txtNombre.Text;
-                oServicio.tipo = txtTipo.Text;
+                        oServicio.nombre = txtNombre.Text;
+                        oServicio.tipo = txtTipo.Text;
 
-                oServicio.precio = float.Parse(txtPrecio.Text);
+                        oServicio.precio = float.Parse(txtPrecio.Text);
 
-                controladorServicio.nuevo(oServicio);
+                        controladorServicio.nuevo(oServicio);
+                        MessageBox.Show(this, "Servicio Agregado Exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.Close();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    try
+                    {
+                        oServicio.nombre = txtNombre.Text;
+                        oServicio.tipo = txtTipo.Text;
+
+                        oServicio.precio = float.Parse(txtPrecio.Text);
+
+                        controladorServicio.editar(oServicio);
+                        MessageBox.Show(this, "Servicio Modificado Exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        this.Close();
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                //this.Close();
+            }else
+            {
+                MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private bool ValidarCampos()
+        {
+            bool ok = true;
+            if(txtNombre.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtNombre, "Ingrese el Nombre del Servicio");
+            }
+            if(txtPrecio.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtPrecio, "Ingrese el Precio del Servicio");
+            }
+            if(txtTipo.Text == "")
+            {
+                ok = false;
+                errorProvider1.SetError(txtTipo, "Inserte el Tipo de Servicio");
+            }
+            return ok;
+        }
+        private void BorrarMensajeError()
+        {
+            errorProvider1.SetError(txtNombre, "");
+            errorProvider1.SetError(txtPrecio, "");
+            errorProvider1.SetError(txtTipo, "");
+        }
+
+        private void txtPrecio_Validating(object sender, CancelEventArgs e)
+        {
+            int num;
+            if (!int.TryParse(txtPrecio.Text, out num))
+            {
+                errorProvider1.SetError(txtPrecio, "Debe ser un valor Numerico");
             }
             else
             {
-                oServicio.nombre = txtNombre.Text;
-                oServicio.tipo = txtTipo.Text;
-
-                oServicio.precio = float.Parse(txtPrecio.Text);
-
-                controladorServicio.editar(oServicio);
+                errorProvider1.SetError(txtPrecio, "");
             }
-            this.Close();
         }
     }
 }

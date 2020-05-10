@@ -50,7 +50,6 @@ namespace Taller.Vista
                 FrmModificarUsuario oFrmModificarUsuario = new FrmModificarUsuario(id);
                 oFrmModificarUsuario.ShowDialog();
                 dataGridView1.DataSource = controladorUsuario.refrescar();
-
             }
         }
 

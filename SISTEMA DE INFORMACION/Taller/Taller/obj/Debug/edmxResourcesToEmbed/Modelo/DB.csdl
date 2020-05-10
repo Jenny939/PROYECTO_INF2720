@@ -139,8 +139,8 @@
     <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="ap_paterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="ap_materno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-    <Property Name="ci" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
-    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ci" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <Property Name="direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="cuenta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
