@@ -54,5 +54,20 @@ namespace Taller.Vista
             
             dgServicios.DataSource = controladorServicio.refrescar();
         }
+
+        private void btnRealizarVenta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAServ_Click(object sender, EventArgs e)
+        {
+            //dgProductos.SelectedRows()=    
+        }
+
+        private void btnAProd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -38,8 +38,8 @@
             this.btnRampa = new System.Windows.Forms.Button();
             this.btnCliente = new System.Windows.Forms.Button();
             this.btnReporte = new System.Windows.Forms.Button();
-            this.panelContenedor = new System.Windows.Forms.Panel();
             this.btnCuenta = new System.Windows.Forms.Button();
+            this.panelContenedor = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -167,15 +167,7 @@
             this.btnReporte.Text = "REPORTE";
             this.btnReporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnReporte.UseVisualStyleBackColor = true;
-            // 
-            // panelContenedor
-            // 
-            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(0, 100);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1008, 518);
-            this.panelContenedor.TabIndex = 2;
-            this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // btnCuenta
             // 
@@ -186,6 +178,16 @@
             this.btnCuenta.Text = "MI CUENTA";
             this.btnCuenta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCuenta.UseVisualStyleBackColor = true;
+            this.btnCuenta.Click += new System.EventHandler(this.btnCuenta_Click);
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedor.Location = new System.Drawing.Point(0, 100);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(1008, 518);
+            this.panelContenedor.TabIndex = 2;
+            this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // MdiAdministrador
             // 
@@ -196,7 +198,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.IsMdiContainer = true;
             this.Name = "MdiAdministrador";
-            this.Text = "MdiAdministrador";
+            this.Text = "Administrador";
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -216,5 +218,6 @@
         private System.Windows.Forms.Button btnCliente;
         private System.Windows.Forms.Button btnReporte;
         private System.Windows.Forms.Button btnCuenta;
+        public Taller.Modelo.usuario cuentaUsuario;
     }
 }

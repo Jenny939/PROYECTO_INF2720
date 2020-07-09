@@ -54,31 +54,36 @@ C:\Users\Alejandro Benitez\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.F
 C:\Users\Alejandro Benitez\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
 C:\Users\Alejandro Benitez\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
 C:\Users\Alejandro Benitez\Desktop\Taller\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\Taller.exe.config
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.exe
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.pdb
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\Taller.exe
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\Taller.pdb
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\EntityFramework.dll
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\EntityFramework.xml
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
-C:\Users\PROFESIONAL\Desktop\Seguro\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\Taller.exe.config
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.exe
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.pdb
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\Taller.exe
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\Taller.pdb
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\EntityFramework.dll
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\EntityFramework.xml
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources

@@ -91,6 +91,7 @@
             this.btnReservacion.TabIndex = 4;
             this.btnReservacion.Text = "RESERVACIONES";
             this.btnReservacion.UseVisualStyleBackColor = true;
+            this.btnReservacion.Click += new System.EventHandler(this.btnReservacion_Click);
             // 
             // btnReporteVentas
             // 
@@ -100,6 +101,7 @@
             this.btnReporteVentas.TabIndex = 5;
             this.btnReporteVentas.Text = "REPORTE VENTAS";
             this.btnReporteVentas.UseVisualStyleBackColor = true;
+            this.btnReporteVentas.Click += new System.EventHandler(this.btnReporteVentas_Click);
             // 
             // btnCuenta
             // 
@@ -109,6 +111,7 @@
             this.btnCuenta.TabIndex = 6;
             this.btnCuenta.Text = "MI CUENTA";
             this.btnCuenta.UseVisualStyleBackColor = true;
+            this.btnCuenta.Click += new System.EventHandler(this.btnCuenta_Click);
             // 
             // panelContenedor
             // 
@@ -126,7 +129,7 @@
             this.Controls.Add(this.panelContenedor);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "MdiOperador";
-            this.Text = "MdiOperador";
+            this.Text = "Operador";
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -143,5 +146,6 @@
         private System.Windows.Forms.Button btnReservacion;
         private System.Windows.Forms.Button btnReporteVentas;
         private System.Windows.Forms.Button btnCuenta;
+        public Taller.Modelo.usuario cuentaUsuario;
     }
 }

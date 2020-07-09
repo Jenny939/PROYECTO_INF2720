@@ -39,5 +39,24 @@ namespace Taller.Vista
             FrmVenta frmVenta = new FrmVenta();
             adicionarForm(frmVenta);
         }
+
+        private void btnCuenta_Click(object sender, EventArgs e)
+        {
+            FrmCuenta frmCuenta = new FrmCuenta();
+            frmCuenta.cuentaUsuario = this.cuentaUsuario;
+            adicionarForm(frmCuenta);
+        }
+
+        private void btnReservacion_Click(object sender, EventArgs e)
+        {
+            FrmReservaciones frmReservaciones = new FrmReservaciones();
+            adicionarForm(frmReservaciones);
+        }
+
+        private void btnReporteVentas_Click(object sender, EventArgs e)
+        {
+            FrmReportesOperador frmReportesOperador = new FrmReportesOperador();
+            adicionarForm(frmReportesOperador);
+        }
     }
 }

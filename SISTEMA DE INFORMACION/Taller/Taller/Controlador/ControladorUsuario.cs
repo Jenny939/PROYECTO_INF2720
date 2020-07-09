@@ -56,5 +56,32 @@ namespace Taller.Controlador
             }
             return oUsuario;
         }
+        /*MdiAdministrador administrador = new MdiAdministrador();
+        administrador.ShowDialog();
+            MdiOperador operador = new MdiOperador();
+        operador.ShowDialog();
+        */
+        public usuario validarUsuario(string usuario, string pass)
+        {
+            using (DBTallerEntities db = new DBTallerEntities())
+            {
+                usuario oUsuario;
+                var lst = from d in db.usuario
+                          where d.cuenta == usuario && d.pass == pass && d.activo == 1
+                          select d;
+
+                if (lst.Count() > 0)
+                {
+                    oUsuario = lst.First();
+
+
+                }
+                else
+                    oUsuario = null;
+
+                return oUsuario;
+
+            }
+        }
     }
 }

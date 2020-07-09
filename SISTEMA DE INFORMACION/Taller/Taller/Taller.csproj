@@ -111,11 +111,23 @@
     <Compile Include="Modelo\usuario.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
+    <Compile Include="Vista\FrmCambiarPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmCambiarPass.Designer.cs">
+      <DependentUpon>FrmCambiarPass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\FrmCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vista\FrmCliente.Designer.cs">
       <DependentUpon>FrmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FrmCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmCuenta.Designer.cs">
+      <DependentUpon>FrmCuenta.cs</DependentUpon>
     </Compile>
     <Compile Include="Vista\FrmModificarCliente.cs">
       <SubType>Form</SubType>
@@ -173,6 +185,24 @@
     <Compile Include="Vista\FrmRampa.Designer.cs">
       <DependentUpon>FrmRampa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista\FrmReportesAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmReportesAdministrador.Designer.cs">
+      <DependentUpon>FrmReportesAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FrmReportesOperador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmReportesOperador.Designer.cs">
+      <DependentUpon>FrmReportesOperador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FrmReservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmReservaciones.Designer.cs">
+      <DependentUpon>FrmReservaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vista\FrmServicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,8 +239,14 @@
     <Compile Include="Vista\MdiOperador.Designer.cs">
       <DependentUpon>MdiOperador.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vista\FrmCambiarPass.resx">
+      <DependentUpon>FrmCambiarPass.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\FrmCliente.resx">
       <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FrmCuenta.resx">
+      <DependentUpon>FrmCuenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\FrmModificarCliente.resx">
       <DependentUpon>FrmModificarCliente.cs</DependentUpon>
@@ -247,6 +283,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\FrmRampa.resx">
       <DependentUpon>FrmRampa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FrmReportesAdministrador.resx">
+      <DependentUpon>FrmReportesAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FrmReportesOperador.resx">
+      <DependentUpon>FrmReportesOperador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FrmReservaciones.resx">
+      <DependentUpon>FrmReservaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vista\FrmServicio.resx">
       <DependentUpon>FrmServicio.cs</DependentUpon>
