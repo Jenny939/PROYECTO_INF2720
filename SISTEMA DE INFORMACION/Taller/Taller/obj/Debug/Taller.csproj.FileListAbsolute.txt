@@ -87,3 +87,36 @@ D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vi
 D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
 D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
 D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.exe
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.pdb
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.exe
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.pdb
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.dll
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.xml
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
