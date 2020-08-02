@@ -72,13 +72,14 @@
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnBuscar.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Location = new System.Drawing.Point(195, 23);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 31);
             this.btnBuscar.TabIndex = 0;
             this.btnBuscar.Text = "BUSCAR";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtCI
@@ -111,13 +112,14 @@
             // 
             // btnCrearCliente
             // 
+            this.btnCrearCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCrearCliente.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCliente.Location = new System.Drawing.Point(69, 62);
             this.btnCrearCliente.Name = "btnCrearCliente";
             this.btnCrearCliente.Size = new System.Drawing.Size(117, 31);
             this.btnCrearCliente.TabIndex = 4;
             this.btnCrearCliente.Text = "NUEVO CLIENTE";
-            this.btnCrearCliente.UseVisualStyleBackColor = true;
+            this.btnCrearCliente.UseVisualStyleBackColor = false;
             this.btnCrearCliente.Click += new System.EventHandler(this.btnCrearCliente_Click);
             // 
             // tabControl1
@@ -156,12 +158,13 @@
             // 
             // btnAProd
             // 
+            this.btnAProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnAProd.Location = new System.Drawing.Point(15, 90);
             this.btnAProd.Name = "btnAProd";
             this.btnAProd.Size = new System.Drawing.Size(85, 28);
             this.btnAProd.TabIndex = 2;
             this.btnAProd.Text = "AÑADIR";
-            this.btnAProd.UseVisualStyleBackColor = true;
+            this.btnAProd.UseVisualStyleBackColor = false;
             this.btnAProd.Click += new System.EventHandler(this.btnAProd_Click);
             // 
             // txtCantProd
@@ -200,7 +203,7 @@
             this.tabServicios.Location = new System.Drawing.Point(4, 22);
             this.tabServicios.Name = "tabServicios";
             this.tabServicios.Padding = new System.Windows.Forms.Padding(3);
-            this.tabServicios.Size = new System.Drawing.Size(736, 178);
+            this.tabServicios.Size = new System.Drawing.Size(736, 136);
             this.tabServicios.TabIndex = 1;
             this.tabServicios.Text = "Servicios";
             this.tabServicios.UseVisualStyleBackColor = true;
@@ -215,7 +218,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(618, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(115, 172);
+            this.panel1.Size = new System.Drawing.Size(115, 130);
             this.panel1.TabIndex = 1;
             // 
             // cmbRampa
@@ -271,7 +274,7 @@
             this.dgServicios.Name = "dgServicios";
             this.dgServicios.ReadOnly = true;
             this.dgServicios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgServicios.Size = new System.Drawing.Size(730, 172);
+            this.dgServicios.Size = new System.Drawing.Size(730, 130);
             this.dgServicios.TabIndex = 0;
             // 
             // dgDetalle
@@ -370,7 +373,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(55)))), ((int)(((byte)(92)))));
             this.ClientSize = new System.Drawing.Size(976, 442);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCancelarVenta);

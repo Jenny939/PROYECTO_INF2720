@@ -54,7 +54,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(72, 315);
+            this.label2.Location = new System.Drawing.Point(88, 314);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 24);
             this.label2.TabIndex = 3;
@@ -63,29 +63,30 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(163, 271);
+            this.txtUsuario.Location = new System.Drawing.Point(186, 271);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(214, 27);
+            this.txtUsuario.Size = new System.Drawing.Size(191, 27);
             this.txtUsuario.TabIndex = 4;
             // 
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(163, 316);
+            this.txtPass.Location = new System.Drawing.Point(186, 316);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(214, 27);
+            this.txtPass.Size = new System.Drawing.Size(191, 27);
             this.txtPass.TabIndex = 5;
             // 
             // btnIngresar
             // 
+            this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnIngresar.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.Location = new System.Drawing.Point(146, 362);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(170, 37);
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "INGRESAR";
-            this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.UseVisualStyleBackColor = false;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // pictureBox1
@@ -102,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(3)))), ((int)(((byte)(33)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(55)))), ((int)(((byte)(92)))));
             this.ClientSize = new System.Drawing.Size(462, 411);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnIngresar);

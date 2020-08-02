@@ -219,7 +219,7 @@
             // 
             this.btnCambiarPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCambiarPassword.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCambiarPassword.Location = new System.Drawing.Point(332, 321);
+            this.btnCambiarPassword.Location = new System.Drawing.Point(332, 334);
             this.btnCambiarPassword.Name = "btnCambiarPassword";
             this.btnCambiarPassword.Size = new System.Drawing.Size(259, 34);
             this.btnCambiarPassword.TabIndex = 54;
@@ -253,7 +253,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(2)))), ((int)(((byte)(35)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(55)))), ((int)(((byte)(92)))));
             this.ClientSize = new System.Drawing.Size(960, 404);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.label1);
