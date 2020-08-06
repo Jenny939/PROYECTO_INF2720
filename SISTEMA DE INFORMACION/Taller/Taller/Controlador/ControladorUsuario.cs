@@ -56,11 +56,7 @@ namespace Taller.Controlador
             }
             return oUsuario;
         }
-        /*MdiAdministrador administrador = new MdiAdministrador();
-        administrador.ShowDialog();
-            MdiOperador operador = new MdiOperador();
-        operador.ShowDialog();
-        */
+       
         public usuario validarUsuario(string usuario, string pass)
         {
             using (DBTallerEntities db = new DBTallerEntities())
@@ -82,6 +78,26 @@ namespace Taller.Controlador
                 return oUsuario;
 
             }
+        }
+        public List<usuario> listarPorOperador()
+        {
+            List<usuario> listaOperador;
+
+            using (DBTallerEntities db = new DBTallerEntities())
+            {
+
+
+                db.Configuration.LazyLoadingEnabled = false;
+
+                var lst = db.usuario.Where(i => i.tipo == "Operador").Where(i => i.activo == 1);
+
+                lst = lst.OrderBy(i => i.nombre);// funcion par ordenar  [.OrderBy | OrderByDescending]
+
+                listaOperador = lst.ToList();
+
+            }
+
+            return listaOperador;
         }
     }
 }

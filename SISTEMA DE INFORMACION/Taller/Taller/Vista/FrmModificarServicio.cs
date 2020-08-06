@@ -124,5 +124,16 @@ namespace Taller.Vista
                 errorProvider1.SetError(txtPrecio, "");
             }
         }
+
+        private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsControl(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsSeparator(e.KeyChar))
+                e.Handled = false;
+            else e.Handled = true;
+        }
     }
 }

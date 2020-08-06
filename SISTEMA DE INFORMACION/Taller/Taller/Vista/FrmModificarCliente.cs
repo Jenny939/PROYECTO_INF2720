@@ -91,6 +91,7 @@ namespace Taller.Vista
                 MessageBox.Show(this, "Error en el llenado del Formulario", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private bool ValidarCampos()
         {
             bool ok = true;
@@ -126,6 +127,7 @@ namespace Taller.Vista
             }
             return ok;
         }
+
         private void BorrarMensajeError()
         {
             errorProvider1.SetError(txtNombre, "");
@@ -159,6 +161,61 @@ namespace Taller.Vista
             {
                 errorProvider1.SetError(txtTelefono, "");
             }
+        }
+
+        private void txtCI_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))       
+                e.Handled = false;          
+            else if (Char.IsControl(e.KeyChar))           
+                e.Handled = false;           
+            else if (Char.IsSeparator(e.KeyChar))            
+                e.Handled = false;            
+            else e.Handled = true;
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsControl(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsSeparator(e.KeyChar))
+                e.Handled = false;
+            else e.Handled = true;
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsControl(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsSeparator(e.KeyChar))
+                e.Handled = false;
+            else e.Handled = true;
+        }
+
+        private void txtPaterno_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsControl(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsSeparator(e.KeyChar))
+                e.Handled = false;
+            else e.Handled = true;
+        }
+
+        private void txtMaterno_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsControl(e.KeyChar))
+                e.Handled = false;
+            else if (Char.IsSeparator(e.KeyChar))
+                e.Handled = false;
+            else e.Handled = true;
         }
     }
     

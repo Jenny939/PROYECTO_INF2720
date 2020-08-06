@@ -41,75 +41,89 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(143, 19);
+            this.label1.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(162, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 13);
+            this.label1.Size = new System.Drawing.Size(125, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "CAMBIAR CONTRASEÑA";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 54);
+            this.label2.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(71, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 13);
+            this.label2.Size = new System.Drawing.Size(128, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "CONTRASEÑA ANTIGUA:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 103);
+            this.label3.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(71, 99);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 13);
+            this.label3.Size = new System.Drawing.Size(116, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "NUEVA CONTRASEÑA:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(29, 141);
+            this.label4.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(71, 141);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(151, 13);
+            this.label4.Size = new System.Drawing.Size(141, 18);
             this.label4.TabIndex = 3;
             this.label4.Text = "CONFIRMAR CONTRASEÑA:";
             // 
             // txtAntigua
             // 
-            this.txtAntigua.Location = new System.Drawing.Point(186, 51);
+            this.txtAntigua.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAntigua.Location = new System.Drawing.Point(226, 51);
             this.txtAntigua.Name = "txtAntigua";
-            this.txtAntigua.Size = new System.Drawing.Size(164, 20);
+            this.txtAntigua.Size = new System.Drawing.Size(164, 25);
             this.txtAntigua.TabIndex = 4;
             // 
             // txtNueva
             // 
-            this.txtNueva.Location = new System.Drawing.Point(186, 96);
+            this.txtNueva.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNueva.Location = new System.Drawing.Point(226, 96);
             this.txtNueva.Name = "txtNueva";
-            this.txtNueva.Size = new System.Drawing.Size(164, 20);
+            this.txtNueva.Size = new System.Drawing.Size(164, 25);
             this.txtNueva.TabIndex = 5;
             // 
             // txtConfirmar
             // 
-            this.txtConfirmar.Location = new System.Drawing.Point(186, 138);
+            this.txtConfirmar.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmar.Location = new System.Drawing.Point(226, 138);
             this.txtConfirmar.Name = "txtConfirmar";
-            this.txtConfirmar.Size = new System.Drawing.Size(164, 20);
+            this.txtConfirmar.Size = new System.Drawing.Size(164, 25);
             this.txtConfirmar.TabIndex = 6;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(157, 183);
+            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnAceptar.Font = new System.Drawing.Font("Agency FB", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Location = new System.Drawing.Point(146, 183);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.Size = new System.Drawing.Size(163, 35);
             this.btnAceptar.TabIndex = 7;
             this.btnAceptar.Text = "ACEPTAR";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // FrmCambiarPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 235);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(55)))), ((int)(((byte)(92)))));
+            this.ClientSize = new System.Drawing.Size(450, 230);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtConfirmar);
             this.Controls.Add(this.txtNueva);

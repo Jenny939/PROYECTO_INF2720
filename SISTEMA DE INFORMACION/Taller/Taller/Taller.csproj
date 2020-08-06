@@ -9,10 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Taller</RootNamespace>
     <AssemblyName>Taller</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -59,8 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controlador\ControladorCliente.cs" />
+    <Compile Include="Controlador\ControladorDetalleProducto.cs" />
+    <Compile Include="Controlador\ControladorDetalleServicio.cs" />
+    <Compile Include="Controlador\ControladorFactura.cs" />
     <Compile Include="Controlador\ControladorProducto.cs" />
     <Compile Include="Controlador\ControladorRampa.cs" />
+    <Compile Include="Controlador\ControladorReservacion.cs" />
     <Compile Include="Controlador\ControladorServicio.cs" />
     <Compile Include="Controlador\ControladorTecnico.cs" />
     <Compile Include="Controlador\ControladorUsuario.cs" />
@@ -129,6 +132,12 @@
     </Compile>
     <Compile Include="Vista\FrmCuenta.Designer.cs">
       <DependentUpon>FrmCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\FrmFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmFactura.Designer.cs">
+      <DependentUpon>FrmFactura.cs</DependentUpon>
     </Compile>
     <Compile Include="Vista\FrmModificarCliente.cs">
       <SubType>Form</SubType>
@@ -249,6 +258,9 @@
     <EmbeddedResource Include="Vista\FrmCuenta.resx">
       <DependentUpon>FrmCuenta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vista\FrmFactura.resx">
+      <DependentUpon>FrmFactura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vista\FrmModificarCliente.resx">
       <DependentUpon>FrmModificarCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,7 +290,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Vista\FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
@@ -318,6 +329,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DB.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Modelo\DB.edmx.diagram">
       <DependentUpon>DB.edmx</DependentUpon>
       <SubType>Designer</SubType>

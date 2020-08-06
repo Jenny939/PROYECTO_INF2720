@@ -37,6 +37,7 @@ namespace Taller.Vista
         private void btnVenta_Click(object sender, EventArgs e)
         {
             FrmVenta frmVenta = new FrmVenta();
+            frmVenta.cuentaUsuario = this.cuentaUsuario;
             adicionarForm(frmVenta);
         }
 
@@ -56,6 +57,7 @@ namespace Taller.Vista
         private void btnReporteVentas_Click(object sender, EventArgs e)
         {
             FrmReportesOperador frmReportesOperador = new FrmReportesOperador();
+            frmReportesOperador.cuentaUsuario = this.cuentaUsuario;
             adicionarForm(frmReportesOperador);
         }
     }

@@ -87,36 +87,177 @@ D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vi
 D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
 D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
 D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+D:\Lexer\Materias\INF 2720 Ing Software\Nestor\Taller\Taller\obj\Debug\Taller.Vista.FrmFactura.resources
+C:\Proyecto\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.exe
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.pdb
+C:\Proyecto\Taller\Taller\bin\Debug\Taller.exe
+C:\Proyecto\Taller\Taller\bin\Debug\Taller.pdb
+C:\Proyecto\Taller\Taller\bin\Debug\EntityFramework.dll
+C:\Proyecto\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyecto\Taller\Taller\bin\Debug\EntityFramework.xml
+C:\Proyecto\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmFactura.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+C:\Proyecto\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.exe
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.pdb
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\Taller.exe
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\Taller.pdb
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\EntityFramework.dll
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\EntityFramework.xml
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmFactura.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+C:\Users\Nestor Benitez Diaz\Desktop\PROYECTO_INF2720-master\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.exe
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.pdb
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\Taller.exe
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\Taller.pdb
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\EntityFramework.dll
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\EntityFramework.xml
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmFactura.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.exe
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.pdb
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\Taller.exe
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\Taller.pdb
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\EntityFramework.dll
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\EntityFramework.xml
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmFactura.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+C:\Users\PROFESIONAL\Desktop\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.exe.config
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.exe
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.pdb
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.exe
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.pdb
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.dll
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.xml
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmFactura.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
+C:\Proyecto1\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
 C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.exe.config
 C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.exe
 C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.pdb
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.exe
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\Taller.pdb
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.dll
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.SqlServer.dll
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.xml
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\bin\Debug\EntityFramework.SqlServer.xml
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.csprojResolveAssemblyReference.cache
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCambiarPass.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCliente.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmCuenta.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarCliente.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarProducto.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarRampa.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarServicio.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarTecnico.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmModificarUsuario.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.FrmPrincipal.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Properties.Resources.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmProducto.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmRampa.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesAdministrador.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReportesOperador.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmReservaciones.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmServicio.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmTecnico.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmUsuario.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.FrmVenta.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.MdiAdministrador.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.Vista.MdiOperador.resources
-C:\Proyecto\SISTEMA DE INFORMACION\Taller\Taller\obj\Debug\Taller.csproj.GenerateResource.Cache
